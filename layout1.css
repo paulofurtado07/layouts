@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 3px solid #000;
+}
+
+header h1 span {
+  font-style: italic;
+  color: #555;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.banner {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.banner h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.banner p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.content {
+  width: 65%;
+}
+
+.content h3 {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-bottom: 30px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.sidebar {
+  width: 30%;
+  padding-left: 20px;
+  border-left: 1px solid #ccc;
+}
+
+.sidebar h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #111;
+}
+
+.sidebar a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.85rem;
+  margin-top: 30px;
+}

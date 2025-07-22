@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.topbar {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-size: 0.9rem;
+}
+
+.branding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px 20px;
+  border-bottom: 3px solid #b00;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #b00;
+}
+
+.logo span {
+  display: block;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.site-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.main-nav {
+  background: #b00;
+  padding: 10px 20px;
+}
+
+.main-nav a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar-left {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.sidebar-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-left li {
+  margin-bottom: 10px;
+}
+
+.sidebar-left a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.sidebar-left a.active {
+  font-weight: bold;
+  color: #b00;
+}
+
+.main-content {
+  width: 55%;
+  padding: 0 20px;
+}
+
+.breadcrumb {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.main-content h1 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.main-content h2 {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.main-content p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.sidebar-right {
+  width: 25%;
+  background: #eee;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar-right h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.sidebar-right p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-column {
+  width: 45%;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-column p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.icons {
+  font-size: 1rem;
+}
